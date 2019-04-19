@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
 
   spec.files = Dir["lib/**/*", "ext/**/*", "LICENSE.txt"]
   spec.test_files = Dir["test/**/*"]
-  spec.extensions = Dir["ext/*/extconf.rb"]
+  spec.extensions = Dir["ext/geos_c_impl/extconf.rb"]
 
   spec.add_development_dependency "rake", "~> 10.4"
   spec.add_development_dependency "rdoc", "~> 4.2"
